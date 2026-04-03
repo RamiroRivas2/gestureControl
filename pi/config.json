@@ -1,0 +1,48 @@
+{
+  "pc_ip": "10.0.0.2",
+  "pc_port": 8765,
+  "pc_mac": "AA:BB:CC:DD:EE:FF",
+  "camera_index": 0,
+  "confidence_threshold": 0.7,
+  "smoothing_frames": 5,
+  "cooldown_seconds": 1.5,
+  "gestures": {
+    "fist": {
+      "action": "shutdown",
+      "label": "Shutdown PC",
+      "confirm": true
+    },
+    "open_palm": {
+      "action": "cancel",
+      "label": "Cancel Action"
+    },
+    "thumbs_up": {
+      "action": "open_app",
+      "label": "Open Discord",
+      "target": "discord"
+    },
+    "peace_sign": {
+      "action": "open_url",
+      "label": "Open YouTube",
+      "target": "https://www.youtube.com"
+    },
+    "index_up": {
+      "action": "hotkey",
+      "label": "Toggle Discord Mute",
+      "keys": ["ctrl", "shift", "m"]
+    },
+    "rock_sign": {
+      "action": "restart",
+      "label": "Restart PC",
+      "confirm": true
+    },
+    "wave": {
+      "action": "wake_on_lan",
+      "label": "Wake PC (WoL)"
+    },
+    "pinch": {
+      "action": "volume_down",
+      "label": "Volume Down"
+    }
+  }
+}
